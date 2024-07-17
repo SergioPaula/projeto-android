@@ -5,15 +5,35 @@
     padding: 0px;
 }
 
+/* Edu Australia VIC WA NT Hand
+Playwrite Perú*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
+
+
+
+:root {
+    --font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font2: "Anton", sans-serif;
+    --font3: "Edu AU VIC WA NT Hand", 'Courier New', Courier, monospace;
+    --font4: "Playwrite PE", 'Courier New', Courier, monospace;
+}
 
 html, body {
     min-height: 100%;
     background-color:beige;
+    font-family: var(--font4);
+    font-weight: 400;
 }
 
 header {
     background-color: black;
     color: white;
+    font-family: var(--font3);
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
