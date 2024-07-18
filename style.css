@@ -58,7 +58,7 @@ section {
 }
 
 section > p {
-    padding-bottom: 2em;
+    padding-bottom: 5em;
 }
 
 
@@ -67,6 +67,8 @@ section > p {
     color: black;
     box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.699);
     padding-left: 2.5vw;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 }
 
 .imagem {
