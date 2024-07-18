@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-/* Edu Australia VIC WA NT Hand
-Playwrite Perú*/
-
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
@@ -15,6 +7,10 @@ Playwrite Perú*/
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
 
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 :root {
     --font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,13 +23,13 @@ html, body {
     min-height: 100%;
     background-color:beige;
     font-family: var(--font4);
-    font-weight: 400;
+    font-weight: 500;
 }
 
 header {
     background-color: black;
     color: white;
-    font-family: var(--font3);
+    font-family: var(--font1);
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -61,16 +57,26 @@ section {
     padding-left: 2%;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 
 .normal {
     background-color: beige;
     color: black;
     box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.699);
+    padding-left: 2.5vw;
 }
 
 .imagem {
     background-color: grey;
     color: white;
+    box-shadow: inset -5px 6px 15px rgba(0, 0, 0, 0.726);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 }
 
 .imagem p {
@@ -80,11 +86,22 @@ section {
     text-shadow: 2px 2px 2px black;
 }
 
+section#img01 {
+    background-image: url('./DESAFIO_3/imagens/background001.jpg');
+    background-position: right center;    
+}
+
+section#img02 {
+    background-image: url('./DESAFIO_3/imagens/background002.jpg');
+    background-position: right center;
+}
+
 
 
 footer {
     background-color: black;
     color: white;
+    font-family: var(--font1);
     text-align: center;
     padding: 15px;
 }
